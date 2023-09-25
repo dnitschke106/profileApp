@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "E5ZSwUnIx4NNek1xquwXM3qG5dn2": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["image"]
+    },
+    "highScore": {
+      "type": "integer"
+    },
+    "null": {
+      "type": "object",
+      "properties": {
+        "bio": {
+          "type": "string"
+        },
+        "hometown": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        },
+        "school": {
+          "type": "string"
+        }
+      },
+      "required": ["bio", "hometown", "image", "name", "school"]
+    },
+    "oKqbLZLdYpfNhGustZjeLqlGvk33": {
+      "type": "object",
+      "properties": {
+        "bio": {
+          "type": "string"
+        },
+        "hometown": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        },
+        "school": {
+          "type": "string"
+        }
+      },
+      "required": ["bio", "hometown", "image", "name", "school"]
+    }
+  },
+  "required": ["E5ZSwUnIx4NNek1xquwXM3qG5dn2", "highScore", "null", "oKqbLZLdYpfNhGustZjeLqlGvk33"]
+}
