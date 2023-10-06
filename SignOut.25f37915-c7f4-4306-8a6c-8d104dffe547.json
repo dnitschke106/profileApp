@@ -41,6 +41,59 @@
     },
     "children": [
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Profile",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 49,
+                "Width": 311,
+                "Visible": true,
+                "X": 34,
+                "Y": 317,
+                "RelativeX": 34,
+                "RelativeY": 317,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "34.53333740234375%",
+                    "top": "47.32758437675693%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
+                "position": "absolute",
+                "edgeOffsets": 317
+            },
+            "children": [],
+            "id": "42a4165e-814e-4481-bb7e-8756347b764d",
+            "thunkableVersion": 423,
+            "name": "Profile1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
